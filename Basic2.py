@@ -36,9 +36,6 @@ new_list=list(filter(lambda x:x%2==0,my_list))  #-->new_list=[x for x in my_list
 newer_list=list(map(lambda x:x**4,my_list))   #newer_list=[x**2 for x in my_list]
 #print(newer_list)
 
-numz=[20,30,40,60]
-numz2=list(filter(lambda n:n%3==0,numz))
-print(numz2)
 
 
 
